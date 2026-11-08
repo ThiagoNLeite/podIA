@@ -6,7 +6,7 @@
 |---|---|
 | **Status** | Planejamento → implementação |
 | **Versão do documento** | 1.0 — 08/11/2026 |
-| **Responsável** | Thiago Nascimento Leite |
+| **Responsáveis** | Thiago Leite, Felipe Shinkai, Heitor |
 | **Contexto** | Trabalho de faculdade |
 | **Tagline** | *"Seu podcast de notícias, feito por IA, em 2 minutos."* |
 
