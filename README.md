@@ -1,6 +1,6 @@
 # 🎧 podIA — Notícia em 2 minutos
 
-# Nomes: Heitor Santos Cortes, Thiago Leite e Felipe Shinkae
+# Nomes: Heitor Santos Cortes, Thiago Leite, Felipe Shinkae e Erick 
 
 > Aplicativo Android que transforma a notícia mais recente de um tema em um mini-podcast de ~2 minutos, em formato de **diálogo entre dois apresentadores**, gerado por IA. Projeto acadêmico: **simples, funcional e com custo zero**.
 
