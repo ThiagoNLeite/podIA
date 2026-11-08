@@ -1,0 +1,25 @@
+# torch é instalado separadamente (versão só-CPU) — ver Dockerfile e README §11.3.
+fastapi==0.162.2
+uvicorn[standard]==0.54.0
+sqlmodel==0.0.48
+pydantic==2.14.3
+pydantic-settings==2.16.2
+APScheduler==3.11.3
+tzdata==2026.6
+PyYAML==6.0.3
+
+# Pipeline
+feedparser==6.0.14
+googlenewsdecoder==0.2.2
+trafilatura==2.3.1
+httpx==0.28.1
+google-genai==3.0.0
+kokoro==0.9.4
+misaki[en]==0.9.4
+soundfile==0.14.0
+num2words==0.5.14
+numpy==2.5.4
+
+# Desenvolvimento
+pytest==9.2.0
+ruff==0.17.4

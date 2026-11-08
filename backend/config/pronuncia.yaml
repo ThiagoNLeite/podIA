@@ -1,0 +1,30 @@
+# Dicionário de pronúncia usado antes da síntese de voz.
+# siglas: soletradas (siglas pronunciáveis como FIFA e NASA não entram aqui).
+# nomes: grafia "fonética" de nomes estrangeiros.
+
+siglas:
+  STF: "ésse tê éfe"
+  STJ: "ésse tê jóta"
+  CBF: "cê bê éfe"
+  TSE: "tê ésse é"
+  PT: "pê tê"
+  PL: "pê éle"
+  MDB: "ême dê bê"
+  PSDB: "pê ésse dê bê"
+  PIB: "pib"
+  IA: "i á"
+  EUA: "estados unidos"
+  VAR: "var"
+  SUV: "ésse u vê"
+  CEO: "ci í ôu"
+
+nomes:
+  Crunchyroll: "cránchi rôu"
+  Netflix: "nétflics"
+  Google: "gúgol"
+  Apple: "épol"
+  Microsoft: "máicrossoft"
+  iPhone: "ai fôun"
+  Tesla: "tésla"
+  YouTube: "iutúbi"
+  Libertadores: "libertadóres"

@@ -1,0 +1,20 @@
+[project]
+name = "podia-backend"
+version = "0.1.0"
+description = "Backend do podIA: notícia em 2 minutos, em diálogo, gerada por IA"
+requires-python = ">=3.11,<3.13"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning", "ignore::UserWarning", "ignore::FutureWarning"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+extend-exclude = ["scripts/spike_gnews.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "BLE", "SIM", "RUF"]
+ignore = ["RUF001", "RUF002", "RUF003"]  # caracteres "ambíguos" são normais em português

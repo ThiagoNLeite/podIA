@@ -1,0 +1,17 @@
+services:
+  backend:
+    build: ./backend
+    image: podia-backend
+    container_name: podia-backend
+    env_file: ./backend/.env
+    environment:
+      DATA_DIR: /app/data          # sobrescreve o ./data do .env local
+      HF_HOME: /app/data/hf-cache  # modelo Kokoro fica em cache no volume
+    ports:
+      - "8000:8000"
+    volumes:
+      - podia-data:/app/data       # banco, áudios e cache do modelo
+    restart: unless-stopped
+
+volumes:
+  podia-data:

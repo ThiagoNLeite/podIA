@@ -1,0 +1,53 @@
+# Temas do podIA. Adicionar um tema = adicionar um bloco aqui.
+# Campos opcionais: janela_horas (padrão 24), tom (padrão informativo), feeds_extras, bloqueadas.
+
+futebol:
+  nome: Futebol
+  icone: ⚽
+  cor: "#22C55E"
+  busca: 'futebol OR brasileirão OR libertadores OR "seleção brasileira"'
+  feeds_extras:
+    - https://ge.globo.com/rss/ge/futebol/
+  bloqueadas: ["apostas", "palpite", "bet", "odds", "cassino", "onde assistir"]
+
+anime:
+  nome: Anime
+  icone: 🎌
+  cor: "#EC4899"
+  busca: "anime OR mangá OR crunchyroll"
+  janela_horas: 72
+  feeds_extras: []
+  bloqueadas: ["codes", "códigos"]
+
+filmes:
+  nome: Filmes
+  icone: 🎬
+  cor: "#F97316"
+  busca: "filme OR cinema OR estreia OR bilheteria"
+  feeds_extras: []
+  bloqueadas: []
+
+politica:
+  nome: Política
+  icone: 🏛️
+  cor: "#3B82F6"
+  busca: "política Brasil OR Congresso OR STF OR Planalto"
+  tom: neutro
+  feeds_extras: []
+  bloqueadas: []
+
+tecnologia:
+  nome: Tecnologia
+  icone: 💻
+  cor: "#8B5CF6"
+  busca: "tecnologia OR inteligência artificial OR smartphone OR startup"
+  feeds_extras: []
+  bloqueadas: []
+
+automotivo:
+  nome: Automotivo
+  icone: 🚗
+  cor: "#EF4444"
+  busca: "carro OR lançamento automotivo OR montadora OR carro elétrico"
+  feeds_extras: []
+  bloqueadas: []

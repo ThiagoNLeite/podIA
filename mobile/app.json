@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "podIA",
+    "slug": "podia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "podia",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0F0A1E",
+    "ios": {
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "br.com.podia.app"
+    },
+    "android": {
+      "package": "br.com.podia.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#2E1065",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0F0A1E",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 140
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "enableBackgroundPlayback": true,
+          "recordAudioAndroid": false,
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

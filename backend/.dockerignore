@@ -1,0 +1,10 @@
+.venv
+data
+tests
+scripts
+__pycache__
+.pytest_cache
+.ruff_cache
+.env
+*.mp3
+!assets/*.mp3
