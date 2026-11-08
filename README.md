@@ -8,7 +8,7 @@
 |---|---|
 | **Status** | Planejamento → implementação |
 | **Versão do documento** | 1.0 — 08/11/2026 |
-| **Responsáveis** | Thiago Leite, Felipe Shinkai, Heitor |
+| **Responsáveis** | Thiago Leite, Felipe Shinkae, Heitor Cortes|
 | **Contexto** | Trabalho de faculdade |
 | **Tagline** | *"Seu podcast de notícias, feito por IA, em 2 minutos."* |
 
